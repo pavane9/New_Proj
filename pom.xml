@@ -99,12 +99,12 @@
     <repository>
         <id>central</id>
         <name>JFrog-releases</name>
-        <url>http://192.168.100.2:8081/artifactory/spring-boot</url>
+        <url>http://192.168.1.14:8081/artifactory/spring-boot</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
         <name>JFrog-snapshots</name>
-        <url>http://192.168.100.2:8081/artifactory/spring-boot</url>
+        <url>http://192.168.1.16:8081/artifactory/spring-boot</url>
     </snapshotRepository>
   </distributionManagement>
 
