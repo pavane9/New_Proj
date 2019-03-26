@@ -96,6 +96,16 @@
       <name>Mybatis GitHub Pages</name>
       <url>git:ssh://git@github.com/mybatis/spring.git?gh-pages#</url>
     </site>
+    <repository>
+        <id>central</id>
+        <name>JFrog-releases</name>
+        <url>http://192.168.100.2:8081/artifactory/spring-boot</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>JFrog-snapshots</name>
+        <url>http://192.168.100.2:8081/artifactory/spring-boot</url>
+    </snapshotRepository>
   </distributionManagement>
 
   <properties>
@@ -358,16 +368,4 @@
       </testResource>
     </testResources>
   </build>
-	<distributionManagement>
-		<repository>
-			<id>central</id>
-			<name>JFrog-releases</name>
-			<url>http://192.168.100.2:8081/artifactory/spring-boot</url>
-		</repository>
-		<snapshotRepository>
-			<id>snapshots</id>
-			<name>JFrog-snapshots</name>
-			<url>http://192.168.100.2:8081/artifactory/spring-boot</url>
-		</snapshotRepository>
-	</distributionManagement>
 </project>
