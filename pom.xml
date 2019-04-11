@@ -131,6 +131,14 @@
       <version>${mybatis.version}</version>
       <scope>provided</scope>
     </dependency>
+         
+    <dependency>
+    <groupId>org.testifyproject.junit4</groupId>
+    <artifactId>unit-test</artifactId>
+    <version>1.0.6</version>
+    <scope>test</scope>
+</dependency>
+
 
     <dependency>
       <groupId>org.springframework</groupId>
